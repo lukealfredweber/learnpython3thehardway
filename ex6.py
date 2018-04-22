@@ -19,6 +19,7 @@ hilarious = False
 joke_evaluation = "Isn't that joke so funny?! {}"
 
 # print format string
+print(joke_evaluation)
 print(joke_evaluation.format(hilarious))
 
 # define and initialise variables
