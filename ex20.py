@@ -4,15 +4,15 @@ from sys import argv
 # unpack argv variable into variables
 script, input_file = argv
 
-# define function with one argument to print contents of passed variable
+# define function with one argument to print contents of a file
 def print_all(f):
         print(f.read())
 
-# define function with one argument to go to reset the position of the passed variable
+# define function with one argument to reset the position of a file
 def rewind(f):
         f.seek(0)
 
-# define function with two arguments to print a specified line
+# define function with two arguments to print a specified line in a file
 def print_a_line(line_count, f):
     print(line_count, f.readline())
 
